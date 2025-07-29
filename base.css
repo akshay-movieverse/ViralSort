@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #000;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  height: 32px;
+}
+
+.logo-text {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.nav-right {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.nav-right a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.btn-signup {
+  background: linear-gradient(to right, #0e83f0, #3fa9f5);
+  color: white;
+  padding: 10px 40px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.heart-logo {
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1 1 180px;
+  margin: 10px;
+}
+
+.footer-logo {
+  width: 30px;
+}
+
+.footer-logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* space between image and text */
+  margin-bottom: 10px;
+}
+
+.footer-logo-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff; /* adjust color to match your theme */
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  color: #fff;
+}
+
+.footer-column p {
+  font-size: 14px;
+  color: #ccc;
+  max-width: 250px;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  background: linear-gradient(to right, #0e83f0, #3fa9f5);
+  text-align: center;
+  padding: 14px 20px;
+  font-size: 14px;
+  color: white;
+}
+
+.footer-bottom p {
+  display: inline-flex;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav-right {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+}
