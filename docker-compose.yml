@@ -4,6 +4,6 @@ services:
   static_site:
     build: .
     ports:
-      - "9200:80"
+      - "9002:80"
     container_name: static_site
     restart: unless-stopped

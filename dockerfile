@@ -1,3 +1,3 @@
 FROM nginx:alpine
 COPY site/ /usr/share/nginx/html
-EXPOSE 9002
+EXPOSE 80
